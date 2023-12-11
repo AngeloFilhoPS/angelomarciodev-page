@@ -41,7 +41,7 @@
     --mb-1: 1rem;
     --mb-1-5: 1.5rem;
     --mb-2: 2rem;
-    --mb-2-5: 2.5rem;
+    --mb-2-5: 1.5rem;
     --mb-3: 3rem;
     /* Z INDEX */
 
@@ -361,4 +361,30 @@ color: var(--title-color);
     display: flex;
     justify-content: center;
     
+}
+.skills__container{
+    row-gap: 0;
+}
+.skills__header{
+     display: flex ;
+     align-items: center;
+     margin-bottom: var(--mb-2-5);
+     cursor: pointer;
+     margin-top: var(--mb-2-5);
+}
+.skills__icon,
+.skills__arrow{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+.skills__icon{
+    margin-right: var(--mb-0-7 5);
+}
+.skills__titles{
+    font-size: var(--h3-font-size);
+}
+.skills__subtitle{
+    font-size: var(--smaller-fonte-size);
+    color: var(--text-color-light);
+    font-weight: var(--font-medium);
 }
